@@ -21,6 +21,7 @@ public class App
         action.moveToElement(driver.findElement(By.linkText("Shop Products"))).perform();
         driver.findElement(By.xpath("//a[contains(@data-action-detail,'Pacs')]")).click();
         //driver.navigate().back();
+          //driver.manage
         //driver.get("https://tide.com/en-us");
         action.moveToElement(driver.findElement(By.linkText("Our Commitment"))).perform();
         driver.findElement(By.xpath("//a[contains(@data-action-detail,'Our Ambition')]")).click();
